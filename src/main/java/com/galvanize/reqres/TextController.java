@@ -55,8 +55,6 @@ public class TextController {
         for (int i=0;i<codes.length;i++) {
             ring.put(String.valueOf(realAlpha.toCharArray()[i]), String.valueOf(codes[i]));
         }
-
-        System.out.println(ring);
         StringBuilder ret = new StringBuilder();
         char[] letters = message.toCharArray();
         for (int i=0;i<letters.length;i++) {
